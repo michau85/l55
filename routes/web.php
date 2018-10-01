@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 Route::get('l55', 'moj@l55');
 Route::get('vue', 'moj@vue');
+Route::get('moja', 'moj@moja');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

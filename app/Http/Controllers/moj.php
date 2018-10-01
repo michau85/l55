@@ -15,4 +15,8 @@ class moj extends Controller
     {
         return view('vue');
     }
+    public function zdalnie()
+    {
+        return 'zdalnie';
+    }
 }
